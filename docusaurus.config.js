@@ -32,11 +32,15 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-        },
+        docs: false,
         blog: {
           showReadingTime: true,
+          feedOptions: {
+            type: 'all',
+            title: 'Bloody Book Club Blog',
+            description: 'Der Blog des Bloody Book Clubs als RSS Feed',
+            copyright: 'Copyright © ${new Date().getFullYear()} Bloody Book Club.',
+          }
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
