@@ -2,9 +2,7 @@
 title: Willkommen beim Bloody Book Club!
 description: Einführungspost
 slug: willkommen-beim-bbb
-authors:
-  - name: Byron
-    title: Administrator
+authors: byron
 tags: [willkommen, bloodybookclub]
 hide_table_of_contents: false
 ---
