@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Bloody book club 🩸',
-  tagline: "Be like Nietzsche, don't be like Freud",
+  title: 'Bloody Book Club',
+  tagline: "Be like Nietzsche. Don't be like Freud",
   url: 'https://bloodybookclub.de',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -56,6 +56,7 @@ const config = {
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/ueber-uns', label: 'Über uns', position: 'left'},
           {
             href: 'https://github.com/bloodybookclub/website',
             label: 'GitHub',

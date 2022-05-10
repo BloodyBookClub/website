@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Regelmäßige Posts',
-    Svg: require('@site/static/img/book.svg').default,
+    Svg: require('@site/static/img/bookshelf.svg').default,
     description: (
       <>
         Wir werden hier regelmäßig Blogposts veröffentlichen,
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Kostenlos',
-    Svg: require('@site/static/img/firework.svg').default,
+    Svg: require('@site/static/img/group.svg').default,
     description: (
       <>
         Dieser Blog bleibt für immer kostenlos für euch! Wir 
